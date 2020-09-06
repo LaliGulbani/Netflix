@@ -1,0 +1,37 @@
+.header_container {
+  background-image: url(../../assets/films-background.jpg);
+  height: 50vh;
+  padding: 2em;
+  position: relative;
+}
+
+header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.header_firstSection {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  align-items: center;
+}
+
+.add_button {
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  padding: 1em;
+  color: #f65261;
+  text-transform: uppercase;
+  height: fit-content;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 25%);
+}
