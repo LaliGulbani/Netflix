@@ -1,0 +1,9 @@
+.resultCountTitle {
+  color: white;
+  font-size: 32px;
+  padding-left: 2em;
+}
+
+.moviesCount {
+  font-weight: bold;
+}

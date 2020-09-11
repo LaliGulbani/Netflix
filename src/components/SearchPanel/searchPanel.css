@@ -1,0 +1,37 @@
+.searchPanel_container {
+  position: relative;
+  z-index: 3;
+  margin-left: 50px;
+}
+
+.searchPanel_title {
+  color: white;
+  font-size: 80px;
+  font-variant: all-small-caps;
+}
+
+.searchPanel_inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchPanel_inputMovia {
+  background: transparent;
+  width: 60%;
+  height: 60px;
+  font-size: x-large;
+  margin-right: 30px;
+  color: white;
+  border-radius: 8px;
+}
+
+.searchPanel_buttonSearch {
+  border: none;
+  height: 60px;
+  width: 15%;
+  text-transform: uppercase;
+  background: #f65261;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

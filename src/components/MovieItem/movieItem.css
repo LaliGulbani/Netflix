@@ -1,0 +1,61 @@
+.movieItemContainer {
+  width: 350px;
+  position: relative;
+}
+
+.threeDots {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  background: #3f3c53;
+  width: 40px;
+  height: 40px;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 1px #4185bc;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.posterImage:hover + .threeDots {
+  display: block;
+}
+
+.threeDots:after {
+  content: '•••';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  font-size: 15px;
+  letter-spacing: 4px;
+  margin-top: 2px;
+}
+
+.captionAndYear {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  align-items: center;
+}
+
+.posterImage {
+  width: 350px;
+  height: 500px;
+}
+
+.title {
+  font-size: 24px;
+  color: #a0a0a0;
+}
+
+.filmType {
+  color: #848482;
+}
+
+.realizeYear {
+  padding: 5px 10px;
+  border: 1px #a0a0a0 solid;
+  color: #a0a0a0;
+}

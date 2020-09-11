@@ -1,0 +1,31 @@
+.navigationContainer {
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+  width: 100%;
+  font-size: 14px; /*font of menu text*/
+  padding-left: 2em;
+}
+
+.navigationContainer ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 10px; /*offset of first tab relative to page left edge*/
+  padding: 0;
+}
+
+.navigationContainer li {
+  text-transform: uppercase;
+  cursor: pointer;
+  float: left;
+  margin: 0;
+  padding: 0;
+  color: white;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 18px;
+}
+
+.navigationContainer li:hover {
+  color: #c0c0c0;
+}
