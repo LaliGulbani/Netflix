@@ -18,7 +18,8 @@
   right: 16px;
 }
 
-.posterImage:hover + .threeDots {
+.posterImage:hover + .threeDots,
+.threeDots:hover {
   display: block;
 }
 
